@@ -8,7 +8,7 @@ function getWeather() {
     const location = locationInput.value.trim();
 
     if (location === '') {
-        alert('Please enter a city or zip code.');
+        alert(`Please enter a city or zip code.`);
         return;
     }
 
